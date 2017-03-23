@@ -16,6 +16,10 @@ package core.java;
  *
  */
 
+/* This comment is to check GitHub commit process
+ * 
+ */
+
 
 public class HelloSample {
 	
