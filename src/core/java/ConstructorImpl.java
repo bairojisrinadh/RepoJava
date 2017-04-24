@@ -10,7 +10,7 @@ class ConstructorImpl extends ConstructorSuper {
 		
 		// TODO Auto-generated method stub
 		ConstructorImpl cs = new ConstructorImpl();
-		
+		System.out.println(cs.toString());// This line added only to fix the bug, not as code intended.
 	}
 
 }

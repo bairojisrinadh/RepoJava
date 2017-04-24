@@ -54,7 +54,7 @@ public class DuplicateWordsCount {
 		}catch(IOException e){
 			e.printStackTrace();
 		}finally{
-			try{if(br!=null)br.close();}catch(Exception ex){}
+			try{if(br!=null)br.close();}catch(Exception ex){ex.printStackTrace();}
 		}
 		
 		return wordMap;

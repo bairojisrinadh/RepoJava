@@ -1,0 +1,11 @@
+URL: http://www.codejava.net/ides/eclipse/8-eclipse-shortcut-keys-for-code-refactoring
+
+1. Alt + Shift + R: Renames a variable, a method, a class or even a package name. This is the most frequently used shortcut in code refactoring. Select whole name of the class, method or variable you want to rename.
+2. Ctrl + 2, R: Renames a variable, a method or a class name locally in the current file. Eclipse doesn’t search outside references hence this renaming is faster than the Alt + Shift +R shortcut. However, use this shortcut with care: only for names used locally in the current file.
+3. Alt + Shift + V: Moves a class, method to another destination. For example, select a class name and press this shortcut, the Move dialog appears. Choose a destination and then click OK.
+4. Alt + Shift + T: Shows refactor context menu. This shortcut allows you to access a full list of refactoring operations which are possible for current context.
+5. Alt + Shift + C: Changes signature of a method. Place the cursor inside a method or select method name, and then press this shortcut. The Change Method Signature dialog appears. You can change various elements of method signature such as access modifier, return type, parameters, exceptions, etc.
+6. Alt + Shift + M: Extracts a selection to a method. This helps you move a selected block of code to a separate method with ease.
+The Extract Method dialog appears. Enter new method name and specify access modifier, parameters list, and then click OK to do the refactoring
+7. Alt + Shift + L: Extracts local variable from an expression.Press this shortcut key brings the Extract Local Variable dialog which allows you to name the local variable.
+8. Alt + Shift + I: Inlines a selected local variable, method or constant if possible. Eclipse replaces the selection with its declaration and puts it directly into the statement.

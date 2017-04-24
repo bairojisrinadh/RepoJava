@@ -51,7 +51,6 @@ public class SortMapByValue {
 		
 		for(Map.Entry<String, Integer> entry:list){
 			System.out.println(entry.getKey()+" ==== "+entry.getValue());
-			
 		}
 	}
 }

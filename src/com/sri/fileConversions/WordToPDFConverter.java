@@ -25,7 +25,7 @@ public class WordToPDFConverter {
 		long startTime = System.currentTimeMillis();
 		WordToPDFConverter.convertWordToPDF("C:\\Biroji\\Resume\\Srinadh_Biroji_CV.docx","C:\\Ddrive\\Srinadh_Biroji_CV.pdf");
 		long endTime = System.currentTimeMillis();
-		double executionTime = Math.round((endTime - startTime)/1000) ;
+		long executionTime = Math.round((endTime - startTime)/1000) ;
 		System.out.println("Conversion Successfull !!" + "  Time taken for execution: "+ executionTime +"secs.");
 	}  
 
@@ -67,8 +67,9 @@ public class WordToPDFConverter {
 			document.add(new Paragraph(k));
 
 			document.close();
+			if(fileForPdf != null){
 			fileForPdf.close();
-
+			}
 
 
 		} catch (Exception e) {

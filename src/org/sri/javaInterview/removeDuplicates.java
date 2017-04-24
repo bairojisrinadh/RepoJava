@@ -20,7 +20,7 @@ public class removeDuplicates {
 				if (array[i] == array[j]) // checking one element with all the elements
 				{
 						array[j] = array[size - 1];// shifting the values
-						System.out.println(array[j]);
+
 						size--;
 						j--;  
 					
@@ -31,7 +31,7 @@ public class removeDuplicates {
 
 		for (int k = 0; k < size; k++) 
 		{
-			System.out.println(array[k]); // printing the values
+			System.out.print(array[k] + " "); // printing the values
 		}
 
 	}	
