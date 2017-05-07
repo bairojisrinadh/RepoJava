@@ -10,8 +10,7 @@ public class HeapAnalyzer {
 		List<String> list = new ArrayList<>();
 		while(true){
 			list.add("OutOfMemoryError Soon");
-			//Thread.sleep(300);
+			//Thread.sleep(1);
 		}
 	}
-
 }
