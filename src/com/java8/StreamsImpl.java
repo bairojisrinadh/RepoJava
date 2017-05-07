@@ -2,6 +2,7 @@ package com.java8;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Comparator;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -136,7 +137,7 @@ public class StreamsImpl {
 		map.put(44, "Srinadh"); 
 		Set<Entry<Integer,String>> set = map.entrySet();
 		List<Entry<Integer,String>> list = new ArrayList<>(set);
-		/*list.sort(new Comparator<Map.Entry<Integer, String>>(){
+		list.sort(new Comparator<Map.Entry<Integer, String>>(){
 
 			@Override
 			public int compare(Map.Entry<Integer, String> o1, Map.Entry<Integer, String> o2) {
@@ -148,7 +149,7 @@ public class StreamsImpl {
 		
 		for(Map.Entry<Integer, String> entry : list){
 			System.out.println(entry.getKey()+"--"+entry.getValue());
-		}*/
+		}
 		/*Stream<?> stream = (Stream<?>) map.entrySet().stream().collect(Collectors.toMap(entry -> entry.getKey(), entry -> entry.getValue()));
 		stream.forEach(s -> System.out.println(s.toString()));*/
 		

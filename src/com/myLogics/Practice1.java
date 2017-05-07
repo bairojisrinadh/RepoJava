@@ -11,7 +11,7 @@ public class Practice1 {
 		//reverseAString("srinadh");
 		//System.out.println(reverseAStringUsingRecursion("Srinadh"));
 		//sortingUsingBubbleSort(arr);
-		//checkIfNumIsArmstrong(371);
+		checkIfNumIsArmstrong(371);
 	}
 
 	public static void checkIfNumIsArmstrong(int num) {

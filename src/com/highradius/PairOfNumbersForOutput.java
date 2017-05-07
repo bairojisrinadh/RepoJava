@@ -19,6 +19,7 @@ public class PairOfNumbersForOutput {
 			output = sc.nextLine();
 			findPairsForGivenOutput(acceptString,output);
 		}finally{
+			if(sc != null)
 			sc.close();
 		}
 	}

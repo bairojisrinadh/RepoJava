@@ -22,6 +22,7 @@ public class ParseStringAndEvaluateExpressionsNew {
 			System.out.print("Output:" +acceptString + "  -->  "+ formattedExp);
 			evaluate(exp);
 		}finally{
+			if(sc != null)
 			sc.close();
 		}
 	}

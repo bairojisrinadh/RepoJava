@@ -20,6 +20,7 @@ public class ParseStringAndEvaluateExpressions {
 			System.out.print("Output:" +acceptString + "  -->  "+ formattedExp);
 			evaluate(formattedExp);
 		}finally{
+			if(sc != null)
 			sc.close();
 		}
 	}

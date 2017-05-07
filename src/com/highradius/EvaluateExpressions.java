@@ -21,7 +21,9 @@ public class EvaluateExpressions {
 		}catch(Exception e){
 			e.printStackTrace();
 		}finally{
+			if(sc != null){
 			sc.close();
+			}
 		}
 	}
 
