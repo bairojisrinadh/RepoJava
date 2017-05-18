@@ -1,5 +1,12 @@
 package com.highradius;
 
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+import java.util.Map;
+import java.util.Set;
+import java.util.TreeMap;
+
 public class SampleQuestions {
 	
 	/*
@@ -53,7 +60,23 @@ public class SampleQuestions {
 		//System.out.println(rio());
 		//convertCharactertochar(new Character('C'));
 		SampleQuestions sq = new SampleQuestions("Srinadh"); //This is to make class immutable
-		System.out.println(sq.getString());
+		//System.out.println(sq.getString());
+		Map<Integer,Integer> map = new TreeMap<>();
+		map.put(3, 1);
+		map.put(2, 1);
+		map.put(4, 1);
+		map.put(5, 1);
+		map.put(1, 1);
+		//System.out.println(map);
+		List<Integer> list = new ArrayList<>();
+		list.add(3);
+		list.add(2);
+		list.add(4);
+		list.add(5);
+		list.add(1);
+		Collections.sort(list);
+		Collections.reverse(list);
+		System.out.println(list);
 	}
 
 

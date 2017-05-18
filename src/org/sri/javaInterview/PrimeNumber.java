@@ -8,10 +8,27 @@ public class PrimeNumber {
 	long startTime = System.currentTimeMillis();
 	public static void main(String[] args) {
 		PrimeNumber p = new PrimeNumber();
-		int x = 11;
+		int x = 100;
 		System.out.println("Is "+x+", A Prime Number? "+p.isPrimeNumber(x));
-		
 		System.out.println("List of Prime Numbers below "+x+" are: "+p.getPrimeNumbers(x));
+		System.out.println("List of Prime Numbers using Flag, below "+x+" are: "+p.getPrimeNumbersUsingFlag(x));
+	}
+ 
+	public List<Integer> getPrimeNumbersUsingFlag(int x) {
+		List<Integer> list = new ArrayList<Integer>();
+		for (int i=2;i<=x;i++){
+			boolean isPrime = true;
+			for (int j=2;j<=i/2;j++){
+				if(i%j==0){
+				isPrime = false;
+				break;
+				}
+			}if(isPrime){
+				//System.out.print(i+" ");
+				list.add(i);
+			}
+		}
+		return list;
 	}
 
 	public List<Integer> getPrimeNumbers(int x) {

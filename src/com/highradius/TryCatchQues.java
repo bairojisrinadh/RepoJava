@@ -24,6 +24,7 @@ public class TryCatchQues {
 	public static void main(String[] args){
 		try{
 			System.out.println("In Try");
+			//throw new Exception(); --> point 2
 			call();
 		} catch (Exception e) {
 			System.out.println("In calling method catch");
