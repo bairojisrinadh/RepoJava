@@ -1,0 +1,18 @@
+Java Operators:
+
+Note:
+1. listed in their order of precedence (Top to Bottom)
+2. If operators have the same level of precedence, Java guarantees evaluation in left - to - right order.
+
+Post-increment/post-decrement             :   expression++, expression--
+Pre-increment/pre-decrement               :   ++expression, --expression
+Unary operators      	                  :   +, -, ~, !
+Multiplication/division/modulus     	  :   *, /, %
+Addition/subtraction                	  :   +, -
+Shift operators                     	  :   <<, >>, >>>
+Relational operators                	  :   <, >, <=, >=, instanceof
+Equal to/not equal to               	  :   ==, !=
+Bitwise AND, exclusive OR, inclusive OR   :   &, ^, |
+Logical AND, OR		            		  :   &&, ||
+Ternary operator (Conditional Operator)   :   ?:
+Assignment operators			          :   = += -= *= /= %= &= ^= |= <<= >>= >>>=
