@@ -24,7 +24,7 @@ public class JDBCConnectivity {
 			while(resultSet.next()){
 				System.out.println(resultSet.getInt(1)+" : "+resultSet.getString(2)+", "+resultSet.getString(3));
 			}
-		}catch(Exception e){
+		}catch(NullPointerException | ArithmeticException | ClassNotFoundException e){
 			System.out.println("Any Exception Caught here!!");
 			e.printStackTrace();
 		}finally{

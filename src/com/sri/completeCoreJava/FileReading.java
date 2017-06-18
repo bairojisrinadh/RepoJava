@@ -15,15 +15,17 @@ public class FileReading {
 
 	public static void main(String[] args) throws IOException {
 		File file = new File("C:\\Users\\bsrinadh\\workspace\\Learnings\\src\\Important Links");
-		FileReader fd = new FileReader(file);
-		BufferedReader br = new BufferedReader(fd);
-		String line = null;
-		while((line = br.readLine()) != null ){
-			StringTokenizer st = new StringTokenizer(line, "-");
-			while(st.hasMoreTokens()){
-			System.out.println(st.nextElement());
+		try(FileReader fd = new FileReader(file);BufferedReader br = new BufferedReader(fd);){
+			String line = null;
+			while((line = br.readLine()) != null ){
+				StringTokenizer st = new StringTokenizer(line, "-");
+				while(st.hasMoreTokens()){
+					System.out.println(st.nextElement());
+				}
 			}
 		}
 	}
+
+
 
 }

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<company>
+    <companyName>CSC</companyName>
+    <Employees>
+        <Employee>
+            <empName>Srinadh</empName>
+            <age>24</age>
+            <salary>23849.93</salary>
+            <dept>Zurich-CH</dept>
+            <Adresses>
+                <address1>
+                    <address>Boudhanagar</address>
+                </address1>
+                <address1>
+                    <address>Warasiguda</address>
+                </address1>
+            </Adresses>
+        </Employee>
+        <Employee>
+            <empName>Chethana</empName>
+            <age>25</age>
+            <salary>28949.93</salary>
+            <dept>Mainframe</dept>
+            <Adresses>
+                <address1>
+                    <address>Sitaphalmandi</address>
+                </address1>
+                <address1>
+                    <address>Secunderabad</address>
+                </address1>
+            </Adresses>
+        </Employee>
+    </Employees>
+    <companyAddress>Mindspace</companyAddress>
+</company>

@@ -39,7 +39,7 @@ public class SampleQuestions {
 	public static int rio() {
 		int i =0;
 		try{
-			int j = i/5;
+			int j = 5/i;
 			return j;
 		}catch(ArithmeticException ae){
 			ae.printStackTrace();
