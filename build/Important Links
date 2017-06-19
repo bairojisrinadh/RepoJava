@@ -3,7 +3,10 @@ UpCasting DownCasting - http://www.cs.utexas.edu/~cannata/cs345/Class%20Notes/14
 CourseEra - https://www.coursera.org/
 Method Overloading Rules: http://cs-fundamentals.com/java-programming/method-overloading-in-java.php  ,   http://geekexplains.blogspot.in/2009/06/choosing-most-specific-method-tricky.html
 Fixing Memory leaks - https://dzone.com/articles/how-fix-memory-leaks-java
-
+Eclipse Debugging tricks: http://www.vogella.com/tutorials/EclipseDebugging/article.html,
+						  https://blog.codecentric.de/en/2013/04/again-10-tips-on-java-debugging-with-eclipse/,
+						  https://dzone.com/articles/tips-and-tricks-debugging-ecli
+						  http://agile.csc.ncsu.edu/SEMaterials/tutorials/eclipse-debugger/
 
 Interview Programs:
 http://javarevisited.blogspot.in/2015/01/top-20-string-coding-interview-question-programming-interview.html
