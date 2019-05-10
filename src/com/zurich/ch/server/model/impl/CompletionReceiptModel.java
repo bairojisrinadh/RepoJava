@@ -18,8 +18,8 @@ import com.zurich.ch.server.model.AbstractModel;
 
 /**
  * CompletionReceiptModel
- * @author pdixit
- * Class description goes here.....
+ * 
+ * @author pdixit Class description goes here.....
  */
 public class CompletionReceiptModel extends AbstractModel {
 
@@ -40,7 +40,11 @@ public class CompletionReceiptModel extends AbstractModel {
 	}
 
 	public Blob getPdf() {
-		return Hibernate.createBlob(this.bis);
+		// TODO: Commented out below line of code; since no previous version
+		// hibernate jar in classpath. below method is deprecated in newer
+		// versions.
+		// return Hibernate.createBlob(this.bis);
+		return null;
 	}
 
 	public void setPdf(Blob pdf) {
@@ -65,8 +69,7 @@ public class CompletionReceiptModel extends AbstractModel {
 		return null;
 	}
 
-	private byte[] toByteArrayImpl(Blob fromImageBlob,
-			ByteArrayOutputStream baos) throws SQLException, IOException {
+	private byte[] toByteArrayImpl(Blob fromImageBlob, ByteArrayOutputStream baos) throws SQLException, IOException {
 		byte buf[] = new byte[4000];
 		int dataSize;
 		InputStream is = fromImageBlob.getBinaryStream();
